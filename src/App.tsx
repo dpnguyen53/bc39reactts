@@ -1,8 +1,12 @@
 import "./App.css";
-// import DemoState from "./DemoState";
+import ListProduct from "./components/ListProduct";
 
 function App() {
-  return <div className="App">{/* <DemoState /> */}</div>;
+  return (
+    <>
+      <ListProduct />
+    </>
+  );
 }
 
 export default App;
